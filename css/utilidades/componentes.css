@@ -19,6 +19,15 @@
   margin-bottom: 28px;
 }
 
+.botao.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.botao.secundario:hover {
+background: var(--cor-9);
+}
+
 @media (max-width: 800px) {
   .botao {
     padding: 12px 16px;
