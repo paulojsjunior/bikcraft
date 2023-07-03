@@ -19,7 +19,7 @@
   background-color: var(--cor-12);
   display: grid;
   grid-template-columns: 1fr auto;
-  padding: 32px 32px 32px 60px;
+  padding: 32px 60px 32px 60px;
 }
 
 .seguros-item h3 {
@@ -56,6 +56,7 @@
 
 .seguros-item a {
   grid-column: 1 / -1;
+  text-align: center;
 }
 
 @media (max-width: 800px) {
@@ -63,15 +64,15 @@
   grid-template-columns: 1fr;
 }
 
-  .botao {
-  max-width: max-content;
+  .seguros-item a {
+  max-width: 50%;
   }
 
 }
 
 @media (max-width: 600px) {
 
-  .botao {
+  .seguros-item a {
     text-align: center;
     max-width: initial;
     }
