@@ -58,3 +58,21 @@
   grid-column: 1 / -1;
 }
 
+@media (max-width: 800px) {
+  .seguros {
+  grid-template-columns: 1fr;
+}
+
+  .botao {
+  max-width: max-content;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .botao {
+    text-align: center;
+    max-width: initial;
+    }
+  }  
