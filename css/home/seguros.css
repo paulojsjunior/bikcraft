@@ -5,7 +5,8 @@
 .seguros {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 60px 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   gap: 40px;
   align-items: center;
 }
