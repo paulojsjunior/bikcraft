@@ -33,3 +33,21 @@
 .parceiros li:nth-child(n + 5) {
   border-top: 2px solid var(--cor-2);
 }
+
+@media (max-width: 800px) {
+  .parceiros h2 {
+    padding-bottom: 32px;
+  }
+
+  .parceiros ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .parceiros li:nth-child(n + 3) {
+    border-top: 2px solid var(--cor-2);
+  }
+
+  .parceiros li:nth-child(odd) {
+    border-left: none;
+  }
+}
