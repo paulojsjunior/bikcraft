@@ -22,7 +22,7 @@
   margin-bottom: 32px;
 }
 
-.footer-contato li {
+.footer li {
   margin-bottom: 16px;
 }
 
@@ -44,4 +44,24 @@
   grid-column: 1 / -1;
   margin-top: 40px;
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  .footer > img {
+    display: none;
+  }
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .footer-copy {
+    margin-top: 20px;
+  }
 }
