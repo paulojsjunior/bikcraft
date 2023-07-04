@@ -4,7 +4,7 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 3fr 5fr 4fr;
+  grid-template-columns: 5fr 4fr 3fr;
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
