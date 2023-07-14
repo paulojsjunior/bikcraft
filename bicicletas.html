@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Bicicletas" />
+    <link rel="preload" href="style.css" as="style" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +18,9 @@
   <body>
     <header class="header-bg">
       <div class="container header">
-        <a href="./"><img src="img/bikcraft.svg" alt="Bikcraft" /></a>
+        <a href="./"
+          ><img src="img/bikcraft.svg" width="136" height="32" alt="Bikcraft"
+        /></a>
 
         <nav aria-label="primaria">
           <ul class="header-menu font-1-m cor-0">
@@ -43,23 +46,53 @@
         <div class="bicicletas-imagem">
           <img
             src="img/bicicletas/nimbus.jpg"
+            width="1120"
+            height="680"
             alt="Bicicleta Nimbus Stark Stark preta"
           />
           <span class="font-2-m cor-0">R$ 4999</span>
         </div>
 
         <div class="bicicletas-conteudo">
-          <h2 class="font-1-xl">Nimbus Stark Stark</h2>
+          <h2 class="font-1-xl">Nimbus Stark</h2>
           <p class="font-2-s cor-8">
-            A Nimbus Stark Stark é a melhor Bikcraft já criada pela nossa
-            equipe. Ela vem equipada com os melhores acessórios, o que garante
-            maior velocidade.
+            A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela
+            vem equipada com os melhores acessórios, o que garante maior
+            velocidade.
           </p>
           <ul class="font-1-m cor-8">
-            <li><img src="img/icones/eletrica.svg" alt="" />Motor elétrico</li>
-            <li><img src="img/icones/carbono.svg" alt="" />Fibra de carbono</li>
-            <li><img src="img/icones/velocidade.svg" alt="" />Velocidade</li>
-            <li><img src="img/icones/rastreador.svg" alt="" />Rastrador</li>
+            <li>
+              <img
+                src="img/icones/eletrica.svg"
+                width="32"
+                height="32"
+                alt=""
+              />Motor elétrico
+            </li>
+            <li>
+              <img
+                src="img/icones/carbono.svg"
+                width="32"
+                height="32"
+                alt=""
+              />Fibra de carbono
+            </li>
+            <li>
+              <img
+                src="img/icones/velocidade.svg"
+                width="32"
+                height="32"
+                alt=""
+              />Velocidade
+            </li>
+            <li>
+              <img
+                src="img/icones/rastreador.svg"
+                width="32"
+                height="32"
+                alt=""
+              />Rastrador
+            </li>
           </ul>
           <a class="botao seta" href="bicicletas/nimbus.html">Mais sobre</a>
         </div>
@@ -70,6 +103,8 @@
           <div class="bicicletas-imagem">
             <img
               src="img/bicicletas/magic.jpg"
+              width="1120"
+              height="680"
               alt="Bicicleta Magic Might preta"
             />
             <span class="font-2-m cor-0">R$ 2999</span>
@@ -84,13 +119,37 @@
             </p>
             <ul class="font-1-m cor-5">
               <li>
-                <img src="img/icones/eletrica.svg" alt="" />Motor elétrico
+                <img
+                  src="img/icones/eletrica.svg"
+                  width="32"
+                  height="32"
+                  alt=""
+                />Motor elétrico
               </li>
               <li>
-                <img src="img/icones/carbono.svg" alt="" />Fibra de carbono
+                <img
+                  src="img/icones/carbono.svg"
+                  width="32"
+                  height="32"
+                  alt=""
+                />Fibra de carbono
               </li>
-              <li><img src="img/icones/velocidade.svg" alt="" />Velocidade</li>
-              <li><img src="img/icones/rastreador.svg" alt="" />Rastrador</li>
+              <li>
+                <img
+                  src="img/icones/velocidade.svg"
+                  width="32"
+                  height="32"
+                  alt=""
+                />Velocidade
+              </li>
+              <li>
+                <img
+                  src="img/icones/rastreador.svg"
+                  width="32"
+                  height="32"
+                  alt=""
+                />Rastrador
+              </li>
             </ul>
             <a class="botao seta" href="bicicletas/magic.html">Mais sobre</a>
           </div>
@@ -113,10 +172,38 @@
             velocidade.
           </p>
           <ul class="font-1-m cor-8">
-            <li><img src="img/icones/eletrica.svg" alt="" />Motor elétrico</li>
-            <li><img src="img/icones/carbono.svg" alt="" />Fibra de carbono</li>
-            <li><img src="img/icones/velocidade.svg" alt="" />Velocidade</li>
-            <li><img src="img/icones/rastreador.svg" alt="" />Rastrador</li>
+            <li>
+              <img
+                src="img/icones/eletrica.svg"
+                width="32"
+                height="32"
+                alt=""
+              />Motor elétrico
+            </li>
+            <li>
+              <img
+                src="img/icones/carbono.svg"
+                width="32"
+                height="32"
+                alt=""
+              />Fibra de carbono
+            </li>
+            <li>
+              <img
+                src="img/icones/velocidade.svg"
+                width="32"
+                height="32"
+                alt=""
+              />Velocidade
+            </li>
+            <li>
+              <img
+                src="img/icones/rastreador.svg"
+                width="32"
+                height="32"
+                alt=""
+              />Rastrador
+            </li>
           </ul>
           <a class="botao seta" href="bicicletas/nebula.html">Mais sobre</a>
         </div>
@@ -125,7 +212,7 @@
 
     <footer class="footer-bg">
       <div class="footer container">
-        <img src="img/bikcraft.svg" alt="Bikcraft" />
+        <img src="img/bikcraft.svg" width="136" height="32" alt="Bikcraft" />
         <div class="footer-contato">
           <h3 class="font-2-l-b cor-0">Contato</h3>
           <ul class="font-2-m cor-5">
@@ -136,10 +223,26 @@
           </ul>
           <div class="footer-redes">
             <a href="./"
-              ><img src="img/redes/instagram.svg" alt="instagram"
+              ><img
+                src="img/redes/instagram.svg"
+                width="32"
+                height="32"
+                alt="instagram"
             /></a>
-            <a href="./"><img src="img/redes/facebook.svg" alt="Facebook" /></a>
-            <a href="./"><img src="img/redes/youtube.svg" alt="Youtube" /></a>
+            <a href="./"
+              ><img
+                src="img/redes/facebook.svg"
+                width="32"
+                height="32"
+                alt="Facebook"
+            /></a>
+            <a href="./"
+              ><img
+                src="img/redes/youtube.svg"
+                width="32"
+                height="32"
+                alt="Youtube"
+            /></a>
           </div>
         </div>
         <div class="footer-informacoes">
