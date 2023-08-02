@@ -24,7 +24,7 @@
   padding: 16px 0;
 }
 
-.header-menu a:after {
+.header-menu a::after {
   content: "";
   display: block;
   position: absolute;
@@ -36,7 +36,8 @@
   transition-duration: .3s;
 }
 
-.header-menu a:hover:after {
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
   width: 100%;
 }
 
